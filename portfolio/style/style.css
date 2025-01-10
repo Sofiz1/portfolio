@@ -1,0 +1,55 @@
+body {
+  font-family: "Courier New", Courier, monospace;
+  padding: 60px;
+}
+nav {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+}
+nav ul {
+  list-style: none;
+  display: flex;
+}
+nav ul a {
+  margin-left: 10px;
+  color: black;
+  text-decoration: none;
+}
+.profile {
+  width: 150px;
+  border-radius: 50%;
+  position: absolute;
+  top: 50px;
+  left: 45%;
+}
+.hero {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 100px;
+}
+.hero .left {
+  width: 40%;
+}
+.hero .right {
+  width: 40%;
+}
+.hero .right img {
+  width: 100%;
+}
+
+/* projects */
+.projects {
+  margin-top: 100px;
+}
+.projects img {
+  width: 300px;
+  border-radius: 5px;
+}
+.contact {
+  margin-top: 100px;
+}
+.services {
+  max-width: 800px;
+}
